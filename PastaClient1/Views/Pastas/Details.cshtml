@@ -1,0 +1,28 @@
+@* @{
+  ViewData["Title"] = "Details";
+  } *@
+
+@model PastaClient.Models.Pasta
+
+<h1>Pasta Info:</h1>
+<ul>
+  <li>ID: @Model.PastaId</li>
+  <li>Name: @Model.Name</li>
+  <li>Gluten Free: @Model.GlutenFree</li>
+  <li>Place of Origin: @Model.Origin</li>
+  <li>Noodle Type: @Model.NoodleType</li>
+</ul>
+<br>
+
+<a href="/Pastas/Edit/@(Model.PastaId)">
+  <p>Edit</p>
+</a>
+<br>
+
+<a href="/Pastas">
+  <p>Return</p>
+</a>
+
+<a href="/Pastas/Delete/@(Model.PastaId)">
+  <p>DELETE ANIMAL</p>
+</a>

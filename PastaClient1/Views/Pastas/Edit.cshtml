@@ -1,0 +1,16 @@
+<h1>Edit Info:</h1>
+<form action="/Pastas/Details/@(Model.PastaId)" method="post">
+  <label for="name">Pasta's Name</label>
+  <input id="name" name="name" type="text" value="@(Model.Name)">
+  <label for="noodle-type">Pasta's Noodle Type</label>
+  <input id="noodle-type" name="noodle-type" type="text" value="@(Model.NoodleType)">
+  <label for="origin">Pasta's Origin</label>
+  <input id="origin" name="origin" type="number" value="@(Model.Origin)">
+  <label for="url">Pasta's Url</label>
+  <input id="url" name="url" type="text" value="@(Model.Url)">
+  <button type="submit">Go!</button>
+</form>
+
+<a href="/Pastas/Details/@(Model.PastaId)">
+  <p>Return to Details</p>
+</a>

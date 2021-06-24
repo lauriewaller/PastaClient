@@ -1,0 +1,18 @@
+<h1>All Pastas:</h1>
+
+<ol>
+  @foreach (Pasta pasta in Model)
+  {
+    <ul>
+      <li>ID: @pasta.PastaId</li>
+      <li>Name: @pasta.Name</li>
+      <li>Species: @pasta.GlutenFree</li>
+      <li>Age: @pasta.Origin</li>
+      <li>Gender: @pasta.NoodleType</li>
+    </ul>
+    <a href="/pastas/Details/@(pasta.PastaId)">
+      <p>View Details</p>
+    </a>
+    <br>
+  }
+</ol>
