@@ -1,3 +1,22 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h1>New Pasta Entry Form</h1>
+
+<form action="/pastas" method="post">
+  <label for="name">Pasta's Name</label>
+  <input id="name" name="name" type="text">
+  <label for="noodleType">Pasta's Noodle Type</label>
+  <input id="noodleType" name="noodleType" type="text">
+  <label for="origin">Pasta's Origin</label>
+  <input id="origin" name="origin" type="text">
+  <label for="url">Pasta's Url</label>
+  <input id="url" name="url" type="text">
+  <button type="submit">Submit!</button>
+</form>
+
+
 <h1>All Pastas:</h1>
 
 <ol>
@@ -6,9 +25,9 @@
     <ul>
       <li>ID: @pasta.PastaId</li>
       <li>Name: @pasta.Name</li>
-      <li>Species: @pasta.GlutenFree</li>
-      <li>Age: @pasta.Origin</li>
-      <li>Gender: @pasta.NoodleType</li>
+      <li>Gluten Free: @pasta.GlutenFree</li>
+      <li>Origin: @pasta.Origin</li>
+      <li>Noodle Type: @pasta.NoodleType</li>
     </ul>
     <a href="/pastas/Details/@(pasta.PastaId)">
       <p>View Details</p>

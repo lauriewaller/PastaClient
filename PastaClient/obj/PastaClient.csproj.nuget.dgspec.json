@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "/Users/jcallahan/Desktop/PastaClient.Solution/PastaClient/PastaClient.csproj": {}
+    "/Users/lauriewaller/Desktop/PastaClient/PastaClient/PastaClient.csproj": {}
   },
   "projects": {
-    "/Users/jcallahan/Desktop/PastaClient.Solution/PastaClient/PastaClient.csproj": {
+    "/Users/lauriewaller/Desktop/PastaClient/PastaClient/PastaClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jcallahan/Desktop/PastaClient.Solution/PastaClient/PastaClient.csproj",
+        "projectUniqueName": "/Users/lauriewaller/Desktop/PastaClient/PastaClient/PastaClient.csproj",
         "projectName": "PastaClient",
-        "projectPath": "/Users/jcallahan/Desktop/PastaClient.Solution/PastaClient/PastaClient.csproj",
-        "packagesPath": "/Users/jcallahan/.nuget/packages/",
-        "outputPath": "/Users/jcallahan/Desktop/PastaClient.Solution/PastaClient/obj/",
+        "projectPath": "/Users/lauriewaller/Desktop/PastaClient/PastaClient/PastaClient.csproj",
+        "packagesPath": "/Users/lauriewaller/.nuget/packages/",
+        "outputPath": "/Users/lauriewaller/Desktop/PastaClient/PastaClient/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/jcallahan/.nuget/NuGet/NuGet.Config"
+          "/Users/lauriewaller/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -68,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.203/RuntimeIdentifierGraph.json"
         }
       }
     }

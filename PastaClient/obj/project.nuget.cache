@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "PQ4ZZEPiAxfcyllM1PJtEdQoxXad+NQSC74qMN2hDKqkJfoM1cPQPEmc44jZgql55totlNg1BrtJ3Lj5r/36lw==",
+  "dgSpecHash": "k6jGvzi4c1bBWqH+znz9jEoXjbxVncCWw23b6P4ZP7nRhqCLQUDZwjrAC52ML3khvJ6EVwOQjhKkHn10qiSpVA==",
   "success": true,
-  "projectFilePath": "/Users/jcallahan/Desktop/PastaClient.Solution/PastaClient/PastaClient.csproj",
+  "projectFilePath": "/Users/lauriewaller/Desktop/PastaClient/PastaClient/PastaClient.csproj",
   "expectedPackageFiles": [
-    "/Users/jcallahan/.nuget/packages/newtonsoft.json/12.0.2/newtonsoft.json.12.0.2.nupkg.sha512",
-    "/Users/jcallahan/.nuget/packages/restsharp/106.6.10/restsharp.106.6.10.nupkg.sha512"
+    "/Users/lauriewaller/.nuget/packages/newtonsoft.json/12.0.2/newtonsoft.json.12.0.2.nupkg.sha512",
+    "/Users/lauriewaller/.nuget/packages/restsharp/106.6.10/restsharp.106.6.10.nupkg.sha512"
   ],
   "logs": []
 }

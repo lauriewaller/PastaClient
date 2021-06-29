@@ -1,9 +1,11 @@
 // using Microsoft.EntityFrameworkCore;
-using Microsoft.AspNetCore.Mvc;
-using PastaClient.Models;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
+using PastaClient.Models;
 
 namespace PastaClient.Controllers
 {
@@ -13,6 +15,12 @@ namespace PastaClient.Controllers
     {
       var allPastas = Pasta.GetPastas();
       return View(allPastas);
+    }
+    [HttpPost]
+    public IActionResult Index(Pasta pasta)
+    {
+      Pasta.Post(pasta);
+      return RedirectToAction("Index");
     }
 
     public IActionResult Details(int id)
@@ -28,13 +36,16 @@ namespace PastaClient.Controllers
     }
 
     [HttpPost]
-    public IActionResult Edit(int id, Pasta pasta)
+    public IActionResult Details(int id, Pasta pasta)
     {
-      Console.Out.WriteLine(id);
-      Console.Out.WriteLine(pasta);
       pasta.PastaId = id;
       Pasta.Put(pasta);
       return RedirectToAction("Details", id);
+    }
+    public IActionResult Delete(int id)
+    {
+      Pasta.Delete(id);
+      return RedirectToAction("Index");
     }
   }
 }
